@@ -1,8 +1,8 @@
-# OSRSGPT: Runescape's First Open-Source GPT-powered Python Bot
+# RunescapeGPT: Runescape's First Open-Source GPT-powered Python Bot
 
-## What is OSRSGPT?
+## What is RunescapeGPT?
 
-OSRSGPT is an innovative Python bot that integrates OpenAI's latest GPT model, offering an enhanced experience over traditional color bots. This cutting-edge tool is released as open-source, inviting community collaboration and development. Inspired by the user interface and features of <a href="https://sammichscripts.com" target="_blank" rel="noopener noreferrer">SammichScripts</a>' AHK bot, OSRSGPT represents a pioneering publicly available endeavor in this space.
+RunescapeGPT is an innovative Python bot that integrates OpenAI's latest GPT model, offering an enhanced experience over traditional color bots. This cutting-edge tool is released as open-source, inviting community collaboration and development. Inspired by the user interface and features of <a href="https://sammichscripts.com" target="_blank" rel="noopener noreferrer">SammichScripts</a>' AHK bot, OSRSGPT represents a pioneering publicly available endeavor in this space.
 
 ## Key Features
 
