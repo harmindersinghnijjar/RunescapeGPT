@@ -30,7 +30,7 @@ git clone https://github.com/harmindersinghnijjar/RunescapeGPT.git
 cd RunescapeGPT
 pip install -r requirements.txt
 ```
-## Usage
+### Usage
 To use RunescapeGPT:
 
 ```bash
@@ -46,10 +46,10 @@ Contributions are welcome! To contribute:
 4. Push to the branch (git push origin feature-branch).
 5. Create a new Pull Request.
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Acknowledgments
+## Acknowledgments
 DreamBot Community for their invaluable discussions and code snippets.
 OpenAI for providing the GPT-3.5-turbo API.
 
