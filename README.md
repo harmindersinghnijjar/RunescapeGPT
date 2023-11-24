@@ -33,10 +33,9 @@ pip install -r requirements.txt
 ## Usage
 To use RunescapeGPT:
 
-bash
-Copy code
+```bash
 python app.py
-# Follow the interactive prompts to describe your script needs and receive code generation.
+```
 
 ## Contributing
 Contributions are welcome! To contribute:
