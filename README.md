@@ -50,8 +50,8 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
-DreamBot Community for their invaluable discussions and code snippets.
-OpenAI for providing the GPT-3.5-turbo API.
+DreamBot Community for their invaluable discussions and code snippets.<br>
+OpenAI for providing the GPT-3.5-turbo API.<br>
 
 ## Disclaimer
 RunescapeGPT is intended for educational purposes and to facilitate the learning process of Java coding for DreamBot scripts. Botting in Old School RuneScape (OSRS) is against the Terms of Service of the game and can lead to account bans. The creators of RunescapeGPT do not condone the use of bots in violation of game rules.
