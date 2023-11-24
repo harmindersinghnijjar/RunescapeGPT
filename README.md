@@ -21,7 +21,7 @@ To generate code, interact with RunescapeGPT through its conversational interfac
 
 RunescapeGPT is periodically re-trained on the latest DreamBot forum posts, ensuring that its knowledge base is always up to date with the latest OSRS botting trends and coding practices.
 
-## Installation
+### Installation
 
 To install RunescapeGPT:
 
@@ -37,7 +37,7 @@ To use RunescapeGPT:
 python app.py
 ```
 
-## Contributing
+### Contributing
 Contributions are welcome! To contribute:
 
 1. Fork the repo.
@@ -46,10 +46,10 @@ Contributions are welcome! To contribute:
 4. Push to the branch (git push origin feature-branch).
 5. Create a new Pull Request.
 
-## License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
+### Acknowledgments
 DreamBot Community for their invaluable discussions and code snippets.
 OpenAI for providing the GPT-3.5-turbo API.
 
