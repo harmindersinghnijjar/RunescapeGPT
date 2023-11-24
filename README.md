@@ -1,4 +1,4 @@
-# RunescapeGPT: Runescape's First Open-Source GPT-powered Code Generation Python Bot
+# RunescapeGPT: The Premier Open-Source Python Bot for GPT-Driven Code Generation in Runescape
 
 RunescapeGPT is an advanced conversational AI designed to assist with writing clean and concise Java code for DreamBot's Old School RuneScape (OSRS) botting scripts. Leveraging the latest discussions and code examples from the DreamBot forums, RunescapeGPT stays current with the best practices and most efficient methodologies in OSRS bot development.
 
