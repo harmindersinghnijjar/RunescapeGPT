@@ -1,50 +1,45 @@
 # RunescapeGPT: The Premier Open-Source Python Bot for GPT-Driven Code Generation in Runescape
 
-RunescapeGPT is an advanced conversational AI designed to assist with writing clean and concise Java code for DreamBot's Old School RuneScape (OSRS) botting scripts. Leveraging the latest discussions and code examples from the DreamBot forums, RunescapeGPT stays current with the best practices and most efficient methodologies in OSRS bot development.
+RunescapeGPT constitutes a sophisticated artificial intelligence system, purpose-built to facilitate the authoring of streamlined and precise Java code pertinent to DreamBot scripts for Old School RuneScape (OSRS). By systematically assimilating contemporary discourse and exemplary code from the DreamBot forums, RunescapeGPT maintains an up-to-date repository of best practices and optimal strategies for OSRS bot script engineering.
 
-## Features
+## Capabilities
 
-- **Conversational AI**: Engage with RunescapeGPT in natural language to discuss your DreamBot script needs.
-- **Code Generation**: Generate Java code snippets for DreamBot that are clean, concise, and ready to use.
-- **Learning Model**: Continually updated with the latest DreamBot forum posts to improve code recommendations.
-- **OSRS Integration**: Designed with the specific mechanics and features of OSRS in mind for highly relevant script generation.
+- **Interactive AI Dialogue System**: Interface with RunescapeGPT through intuitive natural language for comprehensive discussions pertaining to DreamBot scripting requisites.
+- **Automated Code Synthesis**: Produce optimally structured Java code segments for DreamBot, characterized by their clarity and readiness for deployment.
+- **Dynamic Learning Framework**: Regularly augmented with the most recent contributions from the DreamBot forums to refine the AI's code suggestion proficiency.
+- **Targeted OSRS Adaptation**: Architectured to align with the intricate mechanics and attributes of OSRS, ensuring the generation of scripts that are exceptionally pertinent to the game's environment.
+
 
 ## How It Works
 
-RunescapeGPT uses a custom-trained model based on OpenAI's GPT-3.5-turbo to understand and generate Java code. It processes the text from DreamBot forum threads, creating an embedded knowledge base that the AI uses to generate responses and code snippets.
+RunescapeGPT employs a bespoke model, refined on the basis of OpenAI's GPT-3.5-turbo, to comprehend and formulate Java code. This process involves parsing through DreamBot forum discussions to construct a robust internal knowledge base, which in turn informs the AI's generation of pertinent responses and Java code excerpts.
 
 ### Code Generation
 
-To generate code, interact with RunescapeGPT through its conversational interface. Simply describe the functionality you're aiming for, and RunescapeGPT will provide you with a Java code snippet that you can directly implement in your DreamBot script.
+Engage with the RunescapeGPT via its dialogic interface to initiate code generation. Articulate the specific functionality you require, and RunescapeGPT will deliver a Java code fragment, crafted for straightforward integration with your DreamBot script.
 
 ### Training
 
-RunescapeGPT is periodically re-trained on the latest DreamBot forum posts, ensuring that its knowledge base is always up to date with the latest OSRS botting trends and coding practices.
+The training regimen of RunescapeGPT encompasses regular updates from new DreamBot forum content, thereby ensuring the AI's repository of information remains abreast of the prevailing OSRS bot scripting trends and methodologies.
 
 ### Installation
 
-To install RunescapeGPT:
+### Building the Docker Image
 
-```bash
-git clone https://github.com/harmindersinghnijjar/RunescapeGPT.git
-cd RunescapeGPT
-pip install -r requirements.txt
-```
-### Usage
-To use RunescapeGPT:
+To containerize RunescapeGPT, construct the Docker image using the provided Dockerfile:
 
-```bash
-python app.py
+```docker build -t runescapegpt .
 ```
 
-### Contributing
-Contributions are welcome! To contribute:
+### Running the Application as a Docker Container
 
-1. Fork the repo.
-2. Create a new branch (git checkout -b feature-branch).
-3. Make your changes and commit (git commit -am 'Add some feature').
-4. Push to the branch (git push origin feature-branch).
-5. Create a new Pull Request.
+Launch RunescapeGPT within a Docker container by executing:
+
+```docker run -it -p 8000:5000 --name runescape-gpt-container -e OPENAI_API_KEY=YOURAPIKEYHERE runescape-gpt-app
+```
+
+This command initiates an interactive terminal session inside the container, where RunescapeGPT operates.
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
