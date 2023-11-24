@@ -44,7 +44,7 @@ This command initiates an interactive terminal session inside the container, whe
 
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 DreamBot Community for their invaluable discussions and code snippets.<br>
