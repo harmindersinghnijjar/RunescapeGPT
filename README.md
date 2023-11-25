@@ -26,20 +26,19 @@ The training regimen of RunescapeGPT encompasses regular updates from new DreamB
 
 ### Installation
 
-### Building the Docker Image
-
-To containerize RunescapeGPT, construct the Docker image using the provided Dockerfile:
-
 ```bash
-docker build -t runescapegpt .
-```
+# Navigate to the directory containing your Dockerfile and other app files
+cd "C:\Users\Harminder Nijjar\Desktop\blog\kb-blog-portfolio-mkdocs-master\scripts\RAG\RunescapeGPT_v1.0.0"
 
-### Running the Application as a Docker Container
+# Build your Docker image
+docker build -t runescape-gpt-app .
 
-Launch RunescapeGPT within a Docker container by executing:
+# If a container with the same name is already running or exists, remove it
+docker rm -f runescape-gpt-container
 
-```bash
-docker run -it -p 8000:5000 --name runescape-gpt-container -e OPENAI_API_KEY=YOURAPIKEYHERE runescape-gpt-app
+# Run your new Docker container
+docker run -it -p 8000:5000 --name runescape-gpt-container -e OPENAI_API_KEY=your_openai_api_key runescape-gpt-app
+
 ```
 
 This command initiates an interactive terminal session inside the container, where RunescapeGPT operates.
