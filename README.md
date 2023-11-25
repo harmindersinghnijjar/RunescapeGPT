@@ -24,7 +24,7 @@ Engage with the RunescapeGPT via its dialogic interface to initiate code generat
 
 The training regimen of RunescapeGPT encompasses regular updates from new DreamBot forum content, thereby ensuring the AI's repository of information remains abreast of the prevailing OSRS bot scripting trends and methodologies.
 
-### Installation
+### Installation CLI
 
 ```bash
 # Navigate to the directory containing your Dockerfile and other app files
@@ -40,6 +40,22 @@ docker rm -f runescape-gpt-container
 docker run -it -p 8000:5000 --name runescape-gpt-container -e OPENAI_API_KEY=your_openai_api_key runescape-gpt-app
 
 ```
+
+### Installation Flet UI
+```bash
+# Navigate to the directory containing your Dockerfile and other app files
+cd "C:\Users\Harminder Nijjar\Desktop\blog\kb-blog-portfolio-mkdocs-master\scripts\RAG\RunescapeGPT_v1.0.0"
+
+# Build your Docker image
+docker build -t runescape-gpt-app .
+
+# If a container with the same name is already running or exists, remove it
+docker rm -f runescape-gpt-container
+
+# Run your new Docker container and execute ui.py
+docker run -it -p 8000:5000 --name runescape-gpt-container -e OPENAI_API_KEY=your_openai_api_key runescape-gpt-app python ui.py
+```
+
 
 This command initiates an interactive terminal session inside the container, where RunescapeGPT operates.
 
