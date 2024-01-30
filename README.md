@@ -1,6 +1,6 @@
 # RunescapeGPT: The Premier Open-Source Python Bot for GPT-Driven Code Generation in Runescape
 
-![cmd_sRtfZKZ68Y](https://github.com/harmindersinghnijjar/RunescapeGPT/assets/110620707/89713e9a-274c-4413-8896-ec52ca0216a5)
+<img src="https://i.imgur.com/dza1fyo.png">
 
 RunescapeGPT constitutes a sophisticated artificial intelligence system, purpose-built to facilitate the authoring of streamlined and precise Java code pertinent to DreamBot scripts for Old School RuneScape (OSRS). By systematically assimilating contemporary discourse and exemplary code from the DreamBot forums, RunescapeGPT maintains an up-to-date repository of best practices and optimal strategies for OSRS bot script engineering.
 
